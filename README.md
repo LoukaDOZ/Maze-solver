@@ -23,13 +23,13 @@ Controls :
 - Left : Q
 - Right : D
 
-#### Launch an hexagular maze that is solves automatically
+#### Launch an hexangulaire maze that is solves automatically
 
 ```bash
 make run-hexa
 ```
 
-#### Launch an interactable hexagular maze
+#### Launch an interactable hexangulaire maze
 
 ```bash
 make run-hexa-inter
