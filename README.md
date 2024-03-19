@@ -3,42 +3,31 @@ OCaml maze generator and solver. Each maze has an start and an exit position and
 
 ## Usage
 
-There are 4 rules to launch the program :
+| Command               | Description                                       |
+| --------------------- | ------------------------------------------------- |
+| `make install-ocaml`  | Install OCaml                                     |
+| `make run-rect`       | Launch a square maze with automatic solving       |
+| `make run-rect-inter` | Launch a square maze with interactive solving     |
+| `make run-hexa`       | Launch an hexagonal maze with automatic solving   |
+| `make run-hexa-inter` | Launch an hexagonal maze with interactive solving |
 
-#### Launch a rectangular maze that is solved automatically
-
-```bash
-make run-rect
-```
-
-#### Launch an interactable rectangular maze
-
-```bash
-make run-rect-inter
-```
-
-Controls :
+### Interactive controls
+In a square maze, use :
 - Up : Z
 - Down : S
 - Left : Q
 - Right : D
 
-#### Launch an hexangulaire maze that is solves automatically
-
-```bash
-make run-hexa
-```
-
-#### Launch an interactable hexangulaire maze
-
-```bash
-make run-hexa-inter
-```
-
-Controls :
+In an hexagonal maze, use :
 - Up left : A
 - Up : Z
 - Up right : E
 - Down left : Q
 - Down : S
 - Down right : D
+
+## Screenshots
+
+### Square maze
+
+### Hexagonal maze
