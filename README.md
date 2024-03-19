@@ -27,7 +27,8 @@ In an hexagonal maze, use :
 - Down right : D
 
 ## Screenshots
-
 ### Square maze
+![Capture d’écran du 2024-03-19 14-06-34](https://github.com/LoukaDOZ/Maze-solver/assets/46566140/87767810-e46d-4ddf-921f-8038a3a1438b)
 
 ### Hexagonal maze
+![Capture d’écran du 2024-03-19 14-07-24](https://github.com/LoukaDOZ/Maze-solver/assets/46566140/47008129-7703-4022-a0f1-7e61acb85516)
