@@ -5,7 +5,8 @@ OCaml maze generator and solver. Each maze has an start and an exit position and
 
 | Command               | Description                                       |
 | --------------------- | ------------------------------------------------- |
-| `make install-ocaml`  | Install OCaml                                     |
+| `make install`        | Install OCaml                                     |
+| `make uninstall`      | Install OCaml                                     |
 | `make run-rect`       | Launch a rectangle maze with automatic solving    |
 | `make run-rect-inter` | Launch a rectangle maze with interactive solving  |
 | `make run-hexa`       | Launch an hexagonal maze with automatic solving   |

@@ -1,11 +1,18 @@
 CC=ocaml
-CFLAGS=-I `eval \`opam env\` && ocamlfind query graphics` graphics.cma
+CFLAGS=graphics.cma
 
-install-ocaml:
-	sudo apt install -y -- 'ocaml' 'opam'
+install:
+	sudo apt install -y -- 'opam'
 	opam init -y --dot-profile ~/'.bashrc' --shell-setup --
-	opam install -y -- 'graphics' 'ocamlfind'
+	opam switch create 4.07.0
+	opam switch 4.07.0
+	opam install -y -- 'graphics'
 	eval "$(opam env)"
+
+uninstall:
+	opam uninstall -y -- 'graphics'
+	opam switch remove -y -- 4.07.0
+	sudo apt remove -y -- 'opam'
 
 #Grille cubique, résolution automatique
 run-rect : rect_main_auto.ml
